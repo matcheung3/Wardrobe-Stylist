@@ -12,12 +12,12 @@ All of this happens through a friendly browser-based interface that runs locally
 ## ✨ Features
 
 - 🧺 Upload clothing images and auto-generate rich descriptions
-- 👁️ Built-in visual pipeline using OpenAI vision models
-- 🧠 Wardrobe stored as NDJSON, queried with Model Context Protocol
-- 💬 Chat-style web interface built with FastAPI + JavaScript
+- 👁️ Visual pipeline powered by **Azure Computer Vision**
+- 🧠 Wardrobe stored as **NDJSON**, queried via **Model Context Protocol (MCP)**
+- 💬 Chat-style web interface built with **FastAPI + JavaScript**
 - 🌦️ Recommendations based on:
   - Your wardrobe
-  - Local weather in Toronto
+  - Local weather in **Toronto** (via Open-Meteo API)
   - The occasion (e.g., work, gym, party)
 
 ---
