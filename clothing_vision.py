@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 dotenv.load_dotenv("ai_hackathon.env", override=True)
 
 IMAGE_DIR        = "User Weardrobe"               # folder with .jpg / .png
-AGGREGATE_NDJSON = "closet.ndjson"            # final corpus
+AGGREGATE_NDJSON = "closet.ndjson"                # final corpus
 ALLOWED_EXT      = {".jpg", ".jpeg", ".png", ".webp"}
 dir_name = os.path.dirname(AGGREGATE_NDJSON)
 if dir_name:
