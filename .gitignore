@@ -1,1 +1,14 @@
+# Ignore environment secrets
+.env
+ai_hackathon.env
 
+# Ignore user data
+/User Weardrobe/
+
+# Bytecode files
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
