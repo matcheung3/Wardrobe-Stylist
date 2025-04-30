@@ -38,7 +38,7 @@ cd wardrobe-stylist
 pip install -r requirements.txt
 ```
 
-### 3. Add your `.env`
+### 3. Add your crediential in `ai_hackathon.env`
 
 ```dotenv
 AZURE_VISION_ENDPOINT=https://YOUR-RESOURCE-NAME.cognitiveservices.azure.com/
