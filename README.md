@@ -1,24 +1,25 @@
 # 👔 Wardrobe Stylist
 
-**Wardrobe Stylist** is a smart, local web-based agentic application that helps users decide what to wear — powered by **GPT-4o-mini** (deployed on Azure OpenAI), Azure’s **Computer Vision API**, and **Model Context Protocol (MCP).**
+**Wardrobe Stylist** is a smart, local web-based agentic application that helps users decide what to wear — powered by GPT-4o, computer vision, and an MCP-inspired architecture.
 
 Users simply upload photos of their clothing, and the app automatically generates detailed descriptions (color, fit, style, season, etc.). Then, when prompted with questions like **“What should I wear today?”**, the system uses Azure OpenAI, real-time weather data, and the wardrobe context to recommend the perfect outfit.
 
 All of this happens through a friendly browser-based interface that runs locally via FastAPI — no internet deployment required.
 
 ---
+
 ![example1](https://github.com/user-attachments/assets/13c27c5f-a429-4bd5-a30c-7fb49e37a421)
 
 
 ## ✨ Features
 
 - 🧺 Upload clothing images and auto-generate rich descriptions
-- 👁️ Visual pipeline powered by **Azure Computer Vision**
-- 🧠 Wardrobe stored as **NDJSON**, queried via **Model Context Protocol (MCP)**
-- 💬 Chat-style web interface built with **FastAPI + JavaScript**
+- 👁️ Built-in visual pipeline using OpenAI vision models
+- 🧠 Wardrobe stored as NDJSON, queried with an MCP-inspired approach
+- 💬 Chat-style web interface built with FastAPI + JavaScript
 - 🌦️ Recommendations based on:
   - Your wardrobe
-  - Local weather in **Toronto** (via Open-Meteo API)
+  - Local weather in Toronto
   - The occasion (e.g., work, gym, party)
 
 ---
@@ -105,6 +106,16 @@ https://www.kaggle.com/datasets/agrigorev/clothing-dataset-full
 ## 🔒 Disclaimer
 
 This project runs locally and your data stays private. Your `.env` file is not committed and should remain secret.
+
+---
+
+## ℹ️ About the MCP-inspired Architecture
+This project incorporates principles of a Model Context Protocol (MCP) to manage the wardrobe data effectively.  Specifically:
+- Structured Storage: Wardrobe data is stored in NDJSON, providing a structured and easily parseable format.
+- Custom Querying: The mcp_store.py module implements custom logic to query this NDJSON data, allowing the agent to retrieve relevant clothing information.
+
+
+Note: While the architecture emphasizes separation and structured access to context, it does not currently expose a standardized HTTP contract for automatic model integration.  Future development may explore this to enhance modularity.
 
 ---
 
