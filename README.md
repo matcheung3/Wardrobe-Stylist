@@ -73,7 +73,7 @@ Then open your browser at [http://localhost:8000](http://localhost:8000). If tha
  ┣ 📄 stylist_agent.py      # Outfit recommendation agent
  ┣ 📄 mcp_store.py          # Wardrobe memory via NDJSON
  ┣ 📄 requirements.txt
- ┗ 📄 .env                  # Your credentials (not committed)
+ ┗ 📄 ai_hackathon.env
 ```
 
 ---
