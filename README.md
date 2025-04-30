@@ -92,6 +92,13 @@ Then open your browser at [http://localhost:8000](http://localhost:8000). If tha
 
 After uploading your images, the app will process them automatically. Once it says _“✅ Finished processing - ask me what to wear!”_, the stylist is ready to chat!
 
+
+
+## 🗂️ Data
+This project uses a publicly available dataset from Kaggle as example clothing images to simulate a user's wardrobe.
+You can find the dataset here:
+https://www.kaggle.com/datasets/agrigorev/clothing-dataset-full
+
 ---
 
 ## 🔒 Disclaimer
@@ -107,3 +114,5 @@ Thank you for the idea from the following amazing people:
 - [Ethan Hu] (https://www.linkedin.com/in/48471820b/)
 - [Christine Tang] (https://www.linkedin.com/in/c-christine-tang/)
 - [Allan Galli Francis] (https://www.linkedin.com/in/allangallifrancis/)
+
+
