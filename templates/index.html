@@ -1,0 +1,42 @@
+<!-- templates/index.html -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Wardrobe Stylist</title>
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bulma@1.0.0/css/bulma.min.css">
+  <style>
+    #gallery      {display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0}
+    #gallery figure{width:120px;margin:0;text-align:center;font-size:.8rem}
+    #gallery img  {width:100%;height:120px;object-fit:cover;border-radius:6px}
+    #chat         {border:1px solid #ddd;height:240px;overflow:auto;
+                   padding:.5rem;margin-bottom:.5rem}
+    #chat .user   {color:#0a0;font-weight:600}
+    #chat .bot,
+    #chat .system {color:#00f}
+  </style>
+</head>
+<body class="section">
+  <h1 class="title">👗 Wardrobe Stylist</h1>
+
+  <input type="file" id="files" multiple>
+  <button class="button is-info"    onclick="doUpload()">Upload garments</button>
+  <button class="button is-warning" onclick="processWardrobe()">Process wardrobe</button>
+
+  <!-- Will show only *suggested* items -->
+  <div id="gallery"></div>
+
+  <div id="chat"></div>
+  <div class="field has-addons">
+    <div class="control is-expanded">
+      <input class="input" id="msg" placeholder="Ask: What should I wear today?">
+    </div>
+    <div class="control">
+      <button id="send" class="button is-link">Send</button>
+    </div>
+  </div>
+
+  <script src="/static/chat.js"></script>
+</body>
+</html>
