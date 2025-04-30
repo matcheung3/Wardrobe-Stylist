@@ -7,7 +7,8 @@ Users simply upload photos of their clothing, and the app automatically generate
 All of this happens through a friendly browser-based interface that runs locally via FastAPI — no internet deployment required.
 
 ---
-![example1](https://github.com/user-attachments/assets/be8d4cdf-82fe-4fc8-a3d2-7b5898c697a4)
+![example1](https://github.com/user-attachments/assets/13c27c5f-a429-4bd5-a30c-7fb49e37a421)
+
 
 ## ✨ Features
 
