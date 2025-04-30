@@ -139,7 +139,7 @@ async def ws_chat(ws: WebSocket):
                 continue
 
             reply  = stylist.invoke({"input": question})
-            await ws.send_text(reply["output"])             # already JSON 👍
+            await ws.send_text(reply["output"])           
 
     except WebSocketDisconnect:
         pass
