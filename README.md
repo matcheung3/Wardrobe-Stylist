@@ -80,12 +80,11 @@ Then open your browser at [http://localhost:8000](http://localhost:8000). If tha
 
 ## 🧠 Powered By
 
-- Python + FastAPI
-- Azure OpenAI GPT-4o (Vision + Function Calling)
-- OpenAI Vision API for clothing analysis
-- Model Context Protocol (LangChain)
-- Tiktoken + NDJSON for wardrobe memory
-- HTML/CSS/JS for local frontend
+- Backend: Python, FastAPI.
+- Vision: Azure Cognitive Services.
+- LLM Agent: GPT-4o-mini via Azure OpenAI.
+- Agent Logic: LangChain tools agent.
+- Frontend: HTML + JavaScript + CSS. 
 
 ---
 
