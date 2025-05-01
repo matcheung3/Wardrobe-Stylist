@@ -2,7 +2,7 @@
 
 **Wardrobe Stylist** is a smart, local web-based agentic application that helps users decide what to wear — powered by **GPT-4o-mini** (deployed on Azure OpenAI), Azure’s **Computer Vision API**, and an MCP-inspired architecture.
 
-Users simply upload photos of their clothing, and the app automatically generates detailed descriptions (color, fit, style, season, etc.). Then, when prompted with questions like **“What should I wear today?”**, the system uses Azure OpenAI, real-time weather data **(Toronto, Ontario, Canada)**, and the wardrobe context to recommend the perfect outfit.
+Users simply upload photos of their clothing, and the app automatically generates detailed descriptions (color, fit, style, season, etc.). Then, when prompted with questions like **“What should I wear today?”**, the system uses Azure OpenAI, real-time weather data **(Toronto, Canada)**, and the wardrobe context to recommend the perfect outfit.
 
 All of this happens through a friendly browser-based interface that runs locally via FastAPI — no internet deployment required.
 
