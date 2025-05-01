@@ -2,9 +2,6 @@
 .env
 ai_hackathon.env
 
-# Ignore user data
-/User Weardrobe/
-
 # Bytecode files
 __pycache__/
 *.py[cod]
