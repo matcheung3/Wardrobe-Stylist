@@ -88,6 +88,12 @@ Then open your browser at [http://localhost:8000](http://localhost:8000). If tha
 
 ---
 
+🧭 System Flow
+
+![Wardrobe-Stylist](https://github.com/user-attachments/assets/7cc6a2ad-1c02-4722-bfab-a541d83dc6b8)
+
+---
+
 ## 💡 Tip
 
 After uploading your images, the app will process them automatically. Once it says _“✅ Finished processing - ask me what to wear!”_, the stylist is ready to chat!
@@ -99,11 +105,11 @@ This project uses a publicly available dataset from Kaggle as example clothing i
 You can find the dataset here:
 https://www.kaggle.com/datasets/agrigorev/clothing-dataset-full
 
----
+
 
 ## 🔒 Disclaimer
 
-This project runs locally and your data stays private. Your `.env` file is not committed and should remain secret.
+This project runs locally and your data stays private.
 
 ---
 
